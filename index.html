@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title> My first website </title>
+  <style>
+  * {
+    text-align: center;
+      }
+      p{
+        background-color=Tomato
+      }
+      .circle{border-radius: 50%;}
+      </style>
+      </head>
+
+      <h1> Hello User </h1>
+
+        
+           
+
+          </head>
+
+
+    <center>
+      <p>Click the button to get your coordinates.</p>
+                         <button class="button circle" onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>. 
+button                                                                                                                                                                                                                                                                                                                                          </script>
+                                                                                                                                                                                                                                                                                                                                                                                <button class="button button1"
+                                                                                                                                                                                                                                                                                                                                                                                                              onclick="document.getElementById('demo').innerHTML = Date () ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                            Click this button to show Date and Time.</button>
+    </center>
+    <a href="https://sans.nyaasu.top" target="_blank" > game </a>
+    <br>
+    <a href="https://omegafredo.github.io/worst-time-simulator" target="_blank"> Impossible Game </a>
+
+</html>
